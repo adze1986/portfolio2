@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+/* font-family: 'Yeon Sung', cursive; */
+
+body{
+    margin: 0;
+    width: 100%;
+}
+h1{
+    font-family: 'Yeon Sung', cursive;
+    position: absolute;
+    left: 450px;
+    font-size: 80px;
+    width: 100%;
+    color: orange;
+    top: -30px;
+    z-index: 3;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+#welcome{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    border: 3px solid black;
+    background-color: aquamarine;
+    overflow: hidden;
+
+}
+#sea{
+    position: absolute;
+    top: 100px;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+
+}
+#boat{
+    position: absolute;
+    height: 100px;
+    left: -300px;
+    top: 60px;
+    transform: rotateY(180deg);
+    animation-name: boat;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    z-index: 4;
+    overflow: hidden;
+
+}
+@keyframes boat{
+    0%{
+    }
+    100%{
+    transform: translateX(2000px)rotateY(180deg);
+    }
+}
+#css {
+position: absolute;
+transform: scale(0.2);
+top: -170px;
+left: -600px;
+animation-name: move3;
+animation-duration: 50s;
+animation-iteration-count: infinite;
+animation-delay: 5s;
+overflow: hidden;
+
+}
+#js{
+    position: absolute;
+    transform: scale(0.2);
+    top: -220px;    
+    left: 1600px;
+    animation-name: move4;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    overflow: hidden;
+
+}
+#html{
+    position: absolute;
+    transform: scale(0.2);
+    top: -200px;    
+    left: -1200px;
+    animation-name: move3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+
+}
+#cloud1{
+    position: absolute;
+    transform: scale(0.08);
+    top: -210px;    
+    left: 1400px;
+    animation-name: move2;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+
+
+}
+#cloud2{
+    position: absolute;
+    transform: scale(0.08);
+    top: -250px;
+    left: -600px;
+    animation-name: move1;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    overflow: hidden;
+
+}
+@keyframes move1{
+    0%{
+    }
+    100%{
+    transform: translateX(2500px)scale(0.08)
+    }
+}
+@keyframes move2{
+    0%{
+    }
+    100%{
+    transform: translateX(-2500px)scale(0.08)
+    }
+}
+@keyframes move3{
+    0%{
+    }
+    100%{
+    transform: translateX(3000px)scale(0.08)
+    }
+}
+@keyframes move4{
+    0%{
+    }
+    100%{
+    transform: translateX(-2500px)scale(0.08)
+    }
+}
+#main{
+    position: relative;
+    border: 3px solid black;
+    text-align: center;
+    top: 200px;
+    background-image: linear-gradient(red, yellow);
+    width: 100%;
+    font-family: 'Yeon Sung', cursive;
+    overflow: hidden;
+    color: azure;
+}
+#a1{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    color: azure;
+    width: 100%;
+    border: 3px solid black;
+    background-image: linear-gradient(yellow, blue);
+    font-family: 'Yeon Sung', cursive;
+    overflow: hidden;
+}
+#skills{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    color: azure;
+    width: 100%;
+    border: 3px solid black;
+    background-image: linear-gradient(blue, red);
+    font-family: 'Yeon Sung', cursive;
+    overflow: hidden;
+}
+#skills1{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    color: azure;
+    width: 50%;
+    border: 3px solid black;
+    background-image: linear-gradient(red, blue);
+    font-family: 'Yeon Sung', cursive;
+    overflow: hidden;
+    height: 500px;
+}
+#skills2{
+    position: relative;
+    text-align: center;
+    top: -306px;
+    color: azure;
+    left: 50%;
+    width: 50%;
+    border: 3px solid black;
+    background-image: linear-gradient(red, blue);
+    font-family: 'Yeon Sung', cursive;
+    overflow: hidden;
+    height: 500px;
+}
+#links{
+position: relative;
+background-color: #ff8000;
+top: -400px;
+height: 100px;
+text-align: center;
+}
+#git{
+    position: relative;
+    height: 100px;
+}
